@@ -1,0 +1,4 @@
+<!--pages/home/child/home-pop/home-pop.wxml-->
+<view class="pop">
+  <image src='../../../../assets/img/recommend_bg.jpg' />
+</view>

@@ -1,0 +1,5 @@
+/* pages/home/child/home-pop/home-pop.wxss */
+.pop image{
+  width: 100%;
+  
+}

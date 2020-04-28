@@ -1,0 +1,11 @@
+<!--pages/home/child/home-goods/home-goods.wxml-->
+
+<view class='goods'>
+  <view class='item' wx:for="{{goodsList}}" wx:key="index">
+    <image src='{{item.show.img}}' class='itemImg'></image>
+    <view class='bottom'>
+      <view class='title'>{{item.title}}</view>
+      <view class='price'>￥{{item.price}}</view>
+    </view>
+  </view>
+</view>

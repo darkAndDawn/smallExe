@@ -1,0 +1,6 @@
+<!--pages/home/child/home-tabcontrol/home-tabcontrol.wxml-->
+<view class='tabcon'>
+  <view wx:for="{{tabConArr}}" class='item' wx:key="index" bindtap='tabConClick' data-index='{{index}}'>
+    <text class="{{index == activeIndex ? 'active':''}}">{{item}}</text>
+  </view>
+</view>

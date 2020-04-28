@@ -1,0 +1,25 @@
+/* pages/home/child/home-goods/home-goods.wxss */
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.goods .item{
+  width: 48%;
+  padding: 10rpx;
+  box-sizing: border-box
+}
+.goods .itemImg{
+  width: 100%;
+}
+.title{
+  font-size: 30rpx;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+.price{
+  font-size: 36rpx;
+  color: red
+}

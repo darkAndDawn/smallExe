@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<home-swiper bannerList="{{bannerList}}" />
+<home-recommend recommendList="{{recommendList}}" />
+<home-pop />
+<home-tabcontrol bindtabClick="tabClick" tabConArr="{{['流行','新款','精选']}}" />
+<home-goods goodsList="{{goods[type].list}}"/>

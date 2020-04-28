@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "home-swiper":"./child/home-swiper/home-swiper",
+    "home-recommend":"./child/home-recommend/home-recommend",
+    "home-pop": "./child/home-pop/home-pop",
+    "home-tabcontrol":"./child/home-tabcontrol/home-tabcontrol",
+    "home-goods": "./child/home-goods/home-goods"
+  },
+  "navigationBarTitleText": "Home"
+}

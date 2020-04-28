@@ -1,0 +1,6 @@
+<swiper autoplay indicator-dots indicator-active-color="#ff5777" interval="2500" circular>
+  <swiper-item wx:for="{{bannerList}}" wx:key="index">
+    <image src="{{item.image}}" class='swiperImg' mode="aspectFill" />
+  </swiper-item>
+  
+</swiper>
